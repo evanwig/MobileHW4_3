@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameIdentifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:padding="5sp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="5sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/nameIdentifier"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/nameIdentifier" />
+
+    <TextView
+        android:id="@+id/categoryIdentifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:padding="5sp"
+        android:textSize="25sp"
+        android:layout_below="@+id/nameIdentifier"/>
+
+    <EditText
+        android:id="@+id/editCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="5sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/categoryIdentifier"
+        android:layout_below="@+id/nameIdentifier"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/categoryIdentifier" />
+
+    <TextView
+        android:id="@+id/amountIdentifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: "
+        android:padding="5sp"
+        android:textSize="25sp"
+        android:layout_below="@+id/categoryIdentifier" />
+
+    <EditText
+        android:id="@+id/editAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categoryIdentifier"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/amountIdentifier"
+        android:inputType="numberDecimal"
+        android:padding="5sp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/amountIdentifier" />
+
+    <TextView
+        android:id="@+id/dateIdentifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:padding="5sp"
+        android:textSize="25sp"
+        android:layout_below="@+id/amountIdentifier" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amountIdentifier"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/dateIdentifier"
+        android:padding="5sp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/dateIdentifier" />
+
+    <TextView
+        android:id="@+id/notesIdentifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes: "
+        android:padding="5sp"
+        android:textSize="25sp"
+        android:layout_below="@+id/dateIdentifier" />
+
+    <EditText
+        android:id="@+id/editNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateIdentifier"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/notesIdentifier"
+        android:padding="5sp"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/notesIdentifier" />
+
+
+</RelativeLayout>
